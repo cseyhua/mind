@@ -1,5 +1,12 @@
 {
 	"devDependencies": {
+		"@rollup/plugin-json": "^6.0.0",
+		"@rollup/plugin-terser": "^0.4.3",
+		"@types/node": "^20.2.1",
 		"rollup": "^3.22.0"
+	},
+	"version": "0.1.0",
+	"scripts": {
+		"build": "rollup -c"
 	}
 }
